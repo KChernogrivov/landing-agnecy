@@ -66,6 +66,11 @@ header {
     border-radius: 25px;
 }
 
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
 .about-us {
     display: flex;
     align-items: center;
@@ -148,11 +153,7 @@ header {
     width: 60%;
 }
 
-.info-company__title {
-
-}
-
-.info-company__title-text {
+.title-block__text {
     text-transform: uppercase;
     font-weight: 300;
 }
@@ -183,5 +184,83 @@ header {
     background-color: #383838;
 }
 
-.info-company__image {
+.details-company {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details-company__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 10vh;
+}
+
+.details-company__description {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.cycle-button {
+    margin-top: 5vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cycle-button--item {
+    background-color: #81868e;
+    width: 56px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cycle-button--item-active {
+    background-color: #19bd9a;
+}
+
+.cycle-button--image {
+    filter: brightness(0) invert();
+    width: 32px;
+}
+
+.ideas {
+    padding: 10vh 0;
+    width: 75%;
+}
+
+.ideas__text {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ideas__description {
+    width: 30%;
+}
+
+.ideas__description-text {
+    opacity: 0.6;
+}
+
+.future {
+    width: 40%;
+}
+
+.future__title {
+    text-align: center;
+}
+
+.future__description {
+}
+
+.future__description-text {
+    margin-top: 5vh;
+    text-align: center;
 }
