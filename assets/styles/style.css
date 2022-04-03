@@ -48,17 +48,20 @@ header {
     justify-content: space-between;
 }
 
-.menu__item {
-    text-transform: capitalize;
-    border-radius: 15px;
-    font-size: 20px;
-    border: 1px solid transparent;
-    transition: 0.3s;
-    padding: 8px 15px;
+.menu__item-link {
+    padding: 5px 20px;
     cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    transition: 0.3s;
 }
 
-.menu__item:hover {
+.menu__item-link:hover {
     border: 1px solid white;
     border-radius: 25px;
 }
@@ -124,6 +127,61 @@ header {
     height: 5px;
 }
 
-main {
-    height: 100vh;
+.about {
+    width: 100%;
+    padding: 10vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-company {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-company__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.info-company__title {
+
+}
+
+.info-company__title-text {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.info-company__description {
+}
+
+.info-company__description-text {
+    line-height: 2;
+    opacity: 0.6;
+}
+
+.info-company__button-link {
+    padding: 8px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.info-company__button-link:hover {
+    color: white;
+    background-color: #383838;
+}
+
+.info-company__image {
 }
