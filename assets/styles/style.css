@@ -420,3 +420,48 @@ header {
 .first-cycle, .second-cycle, .third-cycle  {
     margin-right: 2vh;
 }
+
+.impressed {
+    width: 100%;
+    padding: 5vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/impressedBG.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.impressed-wrapper {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.impressed-text {
+    color: white;
+    opacity: 0.7;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30vh;
+    line-height: 2;
+}
+
+.impressed-text__title {
+
+}
+
+.impressed-text__description {
+
+}
+
+.impressed-text__autor {
+
+}
+
+.impressed-pc {
+
+}
