@@ -437,6 +437,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .impressed-text {
@@ -450,18 +451,31 @@ header {
     line-height: 2;
 }
 
-.impressed-text__title {
-
+.portfolio {
+    display: flex;
+    padding: 5vh 0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.impressed-text__description {
-
+.portfolio__title {
+    text-align: center;
+    width: 90%;
 }
 
-.impressed-text__autor {
-
+.portfolio__header {
+    padding-bottom: 5vh;
 }
 
-.impressed-pc {
+.portfolio__description {
+    text-align: center;
+}
 
+.portfolio .menu {
+    padding: 5vh 0;
+}
+
+.portfolio .menu__item-link {
+    color: black;
 }
