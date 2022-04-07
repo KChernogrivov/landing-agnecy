@@ -510,6 +510,7 @@ header {
 
 .pic {
     width: 100%;
+    background-size: cover;
 }
 
 .photоСollage-column1__pic2 {
@@ -578,4 +579,17 @@ header {
 
 .photоСollage-column4__pic3 {
     height: 320px;
+}
+
+.menu__image {
+    padding-bottom: 3px;
+    border-bottom: 1px solid transparent;
+    transition: 1s;
+}
+
+.menu__image:hover{
+    border-image: linear-gradient(45deg, orange, orangered);
+    -moz-border-image: -moz-linear-gradient(45deg, orange, orangered);
+    -webkit-border-image: -webkit-linear-gradient(45deg, orange, orangered);
+    border-image-slice: 1;
 }
